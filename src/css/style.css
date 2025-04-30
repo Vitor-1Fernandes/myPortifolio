@@ -3,23 +3,59 @@
     margin: 0px;
     color: whitesmoke;
     font-family: 'Lucida Sans';
-    background-color: #161616;
+    background-color: rgb(105, 95, 95);
 }
 
-.headerhome{
+.headerhome{ 
     font-size: 100;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    position:relative;
+    margin-left: 10%;
+    margin-top: 3%;
+    position:absolute;
+}
+
+.blockhead{
+    background-color:rgb(33, 33, 33);
+    height: 300px;
+    margin: 0px;
+    display:flex;
+}
+.blockhead p{
+    background-color:rgb(33, 33, 33);
+    margin: 0px;
+    display:flex;
+}
+.blockhead h1{
+    margin: 0px;
+    display:flex;
+    background-color:rgb(33, 33, 33);
+}
+.blockhead img{
+    max-width: auto;
+    max-height: 300px;
+    margin-left: 70%;
+    margin-top: 0px;
+    position: absolute;
+    background-color: rgb(33, 33, 33);
+
+}
+
+.blockhead .navp{
+    background-color:rgb(33, 33, 33);
+    margin-left: 280px;
+    margin-top: 160px;
+    position: absolute;
+    display:flex;
 }
 
 .navbar ul{ 
     list-style-type: none;
     display: flex; 
     justify-content: center;  
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin-top: -100px;
+    margin-left: 200px;
+    position: absolute;
 }
 .navbar li{
     list-style-type: none;
@@ -35,7 +71,7 @@
     display: block;
     padding: 10px;
     border-radius: 1px;
-    background-color: rgb(33, 33, 33) ;
+    background-color: rgb(25, 25, 25) ;
     overflow: hidden;
     text-align: center;
     text-decoration: none;
@@ -50,8 +86,9 @@
 
     margin: 60px auto;
     height: auto;
-    width: 700px;
-    display: flexbox;
+    width: auto;
+    max-width: 700px;
+    display: flex;
     justify-content: center;
     text-align: center;
     box-shadow: 0px 0px 10px rgb(39, 39, 39, 0.7);
@@ -65,17 +102,19 @@
     transform: scale(1.01);
 }
 
-.titles{
+
+.container .content h3{
 
     background-color: rgb(33, 33, 33);
-    
-}
-
-.texts{
-
-    background-color: rgb(33, 33, 33)
+    padding: 10px;
 
 }
-
   
+.container .content p{
+
+background-color: rgb(33, 33, 33);
+padding: 10px;
+
+}
+
   
