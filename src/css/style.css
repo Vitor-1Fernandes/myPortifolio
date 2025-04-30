@@ -18,16 +18,16 @@
     background-color:rgb(33, 33, 33);
     height: 300px;
     margin: 0px;
-    display:flexbox;
+    display:flex;
 }
 .blockhead p{
     background-color:rgb(33, 33, 33);
     margin: 0px;
-    display:flexbox;
+    display:flex;
 }
 .blockhead h1{
     margin: 0px;
-    display:flexbox;
+    display:flex;
     background-color:rgb(33, 33, 33);
 }
 .blockhead img{
@@ -45,7 +45,7 @@
     margin-left: 280px;
     margin-top: 160px;
     position: absolute;
-    display:flexbox;
+    display:flex;
 }
 
 .navbar ul{ 
@@ -86,8 +86,9 @@
 
     margin: 60px auto;
     height: auto;
-    width: 700px;
-    display: flexbox;
+    width: auto;
+    max-width: 700px;
+    display: flex;
     justify-content: center;
     text-align: center;
     box-shadow: 0px 0px 10px rgb(39, 39, 39, 0.7);
@@ -101,17 +102,19 @@
     transform: scale(1.01);
 }
 
-.titles{
+
+.container .content h3{
 
     background-color: rgb(33, 33, 33);
-    
-}
-
-.texts{
-
-    background-color: rgb(33, 33, 33)
+    padding: 10px;
 
 }
-
   
+.container .content p{
+
+background-color: rgb(33, 33, 33);
+padding: 10px;
+
+}
+
   
